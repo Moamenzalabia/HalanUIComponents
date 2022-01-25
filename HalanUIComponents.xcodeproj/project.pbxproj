@@ -13,7 +13,6 @@
 		016755B327A078A4007257FE /* UIColor+Backgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B227A078A4007257FE /* UIColor+Backgrounds.swift */; };
 		016755B527A078EF007257FE /* UIColor+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B427A078EF007257FE /* UIColor+Borders.swift */; };
 		016755B727A07911007257FE /* UIColor+Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B627A07911007257FE /* UIColor+Contents.swift */; };
-		016755B927A0797F007257FE /* color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016755B827A0797F007257FE /* color.xcassets */; };
 		016755BB27A079DF007257FE /* HalanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755BA27A079DF007257FE /* HalanButton.swift */; };
 		016755BD27A079FC007257FE /* HalanButton+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755BC27A079FC007257FE /* HalanButton+Animations.swift */; };
 		016755BF27A07A13007257FE /* HalanButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755BE27A07A13007257FE /* HalanButton+Extension.swift */; };
@@ -22,6 +21,7 @@
 		016755C527A07A52007257FE /* HalanButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C427A07A52007257FE /* HalanButton+Theme.swift */; };
 		016755C727A07A7C007257FE /* HalanButton+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C627A07A7C007257FE /* HalanButton+Background.swift */; };
 		016755C927A07A96007257FE /* HalanButton+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C827A07A96007257FE /* HalanButton+Configure.swift */; };
+		01A37F8D27A0A5B30048B793 /* color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A37F8C27A0A5B30048B793 /* color.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		016755B227A078A4007257FE /* UIColor+Backgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Backgrounds.swift"; sourceTree = "<group>"; };
 		016755B427A078EF007257FE /* UIColor+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Borders.swift"; sourceTree = "<group>"; };
 		016755B627A07911007257FE /* UIColor+Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Contents.swift"; sourceTree = "<group>"; };
-		016755B827A0797F007257FE /* color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = color.xcassets; sourceTree = "<group>"; };
 		016755BA27A079DF007257FE /* HalanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalanButton.swift; sourceTree = "<group>"; };
 		016755BC27A079FC007257FE /* HalanButton+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Animations.swift"; sourceTree = "<group>"; };
 		016755BE27A07A13007257FE /* HalanButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Extension.swift"; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		016755C427A07A52007257FE /* HalanButton+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Theme.swift"; sourceTree = "<group>"; };
 		016755C627A07A7C007257FE /* HalanButton+Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Background.swift"; sourceTree = "<group>"; };
 		016755C827A07A96007257FE /* HalanButton+Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Configure.swift"; sourceTree = "<group>"; };
+		01A37F8C27A0A5B30048B793 /* color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = color.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		016755AD27A0781F007257FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				016755B827A0797F007257FE /* color.xcassets */,
+				01A37F8C27A0A5B30048B793 /* color.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -251,7 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016755B927A0797F007257FE /* color.xcassets in Resources */,
+				01A37F8D27A0A5B30048B793 /* color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
