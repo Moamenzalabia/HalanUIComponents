@@ -10,6 +10,18 @@
 		0167559E27A07548007257FE /* HalanUIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0167559527A07548007257FE /* HalanUIComponents.framework */; };
 		016755A327A07548007257FE /* HalanUIComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755A227A07548007257FE /* HalanUIComponentsTests.swift */; };
 		016755A427A07548007257FE /* HalanUIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 0167559827A07548007257FE /* HalanUIComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		016755B327A078A4007257FE /* UIColor+Backgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B227A078A4007257FE /* UIColor+Backgrounds.swift */; };
+		016755B527A078EF007257FE /* UIColor+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B427A078EF007257FE /* UIColor+Borders.swift */; };
+		016755B727A07911007257FE /* UIColor+Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B627A07911007257FE /* UIColor+Contents.swift */; };
+		016755B927A0797F007257FE /* color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016755B827A0797F007257FE /* color.xcassets */; };
+		016755BB27A079DF007257FE /* HalanButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755BA27A079DF007257FE /* HalanButton.swift */; };
+		016755BD27A079FC007257FE /* HalanButton+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755BC27A079FC007257FE /* HalanButton+Animations.swift */; };
+		016755BF27A07A13007257FE /* HalanButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755BE27A07A13007257FE /* HalanButton+Extension.swift */; };
+		016755C127A07A26007257FE /* HalanButton+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C027A07A26007257FE /* HalanButton+Loading.swift */; };
+		016755C327A07A3C007257FE /* HalanButton+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C227A07A3C007257FE /* HalanButton+Size.swift */; };
+		016755C527A07A52007257FE /* HalanButton+Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C427A07A52007257FE /* HalanButton+Theme.swift */; };
+		016755C727A07A7C007257FE /* HalanButton+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C627A07A7C007257FE /* HalanButton+Background.swift */; };
+		016755C927A07A96007257FE /* HalanButton+Configure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755C827A07A96007257FE /* HalanButton+Configure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,18 @@
 		0167559827A07548007257FE /* HalanUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalanUIComponents.h; sourceTree = "<group>"; };
 		0167559D27A07548007257FE /* HalanUIComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalanUIComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		016755A227A07548007257FE /* HalanUIComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalanUIComponentsTests.swift; sourceTree = "<group>"; };
+		016755B227A078A4007257FE /* UIColor+Backgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Backgrounds.swift"; sourceTree = "<group>"; };
+		016755B427A078EF007257FE /* UIColor+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Borders.swift"; sourceTree = "<group>"; };
+		016755B627A07911007257FE /* UIColor+Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Contents.swift"; sourceTree = "<group>"; };
+		016755B827A0797F007257FE /* color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = color.xcassets; sourceTree = "<group>"; };
+		016755BA27A079DF007257FE /* HalanButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalanButton.swift; sourceTree = "<group>"; };
+		016755BC27A079FC007257FE /* HalanButton+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Animations.swift"; sourceTree = "<group>"; };
+		016755BE27A07A13007257FE /* HalanButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Extension.swift"; sourceTree = "<group>"; };
+		016755C027A07A26007257FE /* HalanButton+Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Loading.swift"; sourceTree = "<group>"; };
+		016755C227A07A3C007257FE /* HalanButton+Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Size.swift"; sourceTree = "<group>"; };
+		016755C427A07A52007257FE /* HalanButton+Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Theme.swift"; sourceTree = "<group>"; };
+		016755C627A07A7C007257FE /* HalanButton+Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Background.swift"; sourceTree = "<group>"; };
+		016755C827A07A96007257FE /* HalanButton+Configure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HalanButton+Configure.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +93,8 @@
 		0167559727A07548007257FE /* HalanUIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				016755AE27A07834007257FE /* Classes */,
+				016755AD27A0781F007257FE /* Resources */,
 				0167559827A07548007257FE /* HalanUIComponents.h */,
 			);
 			path = HalanUIComponents;
@@ -80,6 +106,56 @@
 				016755A227A07548007257FE /* HalanUIComponentsTests.swift */,
 			);
 			path = HalanUIComponentsTests;
+			sourceTree = "<group>";
+		};
+		016755AD27A0781F007257FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				016755B827A0797F007257FE /* color.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		016755AE27A07834007257FE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				016755AF27A07845007257FE /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		016755AF27A07845007257FE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				016755B127A07865007257FE /* HalanButton */,
+				016755B027A07853007257FE /* Colors */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		016755B027A07853007257FE /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				016755B227A078A4007257FE /* UIColor+Backgrounds.swift */,
+				016755B427A078EF007257FE /* UIColor+Borders.swift */,
+				016755B627A07911007257FE /* UIColor+Contents.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		016755B127A07865007257FE /* HalanButton */ = {
+			isa = PBXGroup;
+			children = (
+				016755BA27A079DF007257FE /* HalanButton.swift */,
+				016755BC27A079FC007257FE /* HalanButton+Animations.swift */,
+				016755BE27A07A13007257FE /* HalanButton+Extension.swift */,
+				016755C827A07A96007257FE /* HalanButton+Configure.swift */,
+				016755C027A07A26007257FE /* HalanButton+Loading.swift */,
+				016755C227A07A3C007257FE /* HalanButton+Size.swift */,
+				016755C427A07A52007257FE /* HalanButton+Theme.swift */,
+				016755C627A07A7C007257FE /* HalanButton+Background.swift */,
+			);
+			path = HalanButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +220,7 @@
 				TargetAttributes = {
 					0167559427A07548007257FE = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					0167559C27A07548007257FE = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -174,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016755B927A0797F007257FE /* color.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +269,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				016755C527A07A52007257FE /* HalanButton+Theme.swift in Sources */,
+				016755BB27A079DF007257FE /* HalanButton.swift in Sources */,
+				016755C927A07A96007257FE /* HalanButton+Configure.swift in Sources */,
+				016755B327A078A4007257FE /* UIColor+Backgrounds.swift in Sources */,
+				016755BF27A07A13007257FE /* HalanButton+Extension.swift in Sources */,
+				016755C727A07A7C007257FE /* HalanButton+Background.swift in Sources */,
+				016755B727A07911007257FE /* UIColor+Contents.swift in Sources */,
+				016755C127A07A26007257FE /* HalanButton+Loading.swift in Sources */,
+				016755BD27A079FC007257FE /* HalanButton+Animations.swift in Sources */,
+				016755B527A078EF007257FE /* UIColor+Borders.swift in Sources */,
+				016755C327A07A3C007257FE /* HalanButton+Size.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +427,7 @@
 		016755A827A07548007257FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -358,6 +448,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +457,7 @@
 		016755A927A07548007257FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -394,6 +486,7 @@
 		016755AB27A07548007257FE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K299V5NB32;
@@ -410,6 +503,7 @@
 		016755AC27A07548007257FE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = K299V5NB32;
