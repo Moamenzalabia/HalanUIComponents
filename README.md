@@ -7,14 +7,14 @@ The library allows you to use all the features of standard UIButton with a lot o
 | --- | --- |
 | <img src="screenshoots/StartScreen.png" /> | <img src="screenshoots/LoadingScreen.png" /> |
 
-First of all, drag & drop a new UIButton inside your view controller in storyboard, then set the UIButton class to HalanUIComponent:
+First of all, drag & drop a new UIButton inside your view controller in storyboard, then set the UIButton class to HalanButton:
 
 | Halan Class | Halan Inspector |
 | --- | --- |
-| <img src="screenshoots/HalanClass.png" /> | <img src="screenshoots/Halan Inspector.png" /> |
+| <img src="screenshoots/HalanClass.png" /> | <img src="screenshoots/HalanInspector.png" /> |
 
 
-That's it! Now you are ready to customize your HalanUIComponent from the `Attributes Inspector` of Interface Builder.
+That's it! Now you are ready to customize your HalanButton from the `Attributes Inspector` of Interface Builder.
 
 ##### How to show the loader indicator
 ```
