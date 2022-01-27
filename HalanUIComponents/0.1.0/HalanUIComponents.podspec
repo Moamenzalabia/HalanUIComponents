@@ -12,8 +12,8 @@ s.source = { :git => "https://github.com/Moamenzalabia/HalanUIComponents.git",
              :tag => "#{s.version}" }
 
 s.framework = "UIKit"
-s.source_files = "HalanUIComponents/Classes/**/*.{swift}"
-s.resources = "HalanUIComponents/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+s.source_files = "HalanUIComponents/**/*.{swift}"
+s.resources = "HalanUIComponents/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 s.swift_version = "5.2"
 
 end
