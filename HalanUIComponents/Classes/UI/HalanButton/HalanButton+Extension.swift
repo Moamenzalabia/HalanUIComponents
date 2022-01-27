@@ -14,7 +14,7 @@ extension HalanButton {
     }
     
     func updatePrimaryWhiteContentColor() {
-        setTitleColor(.WhiteButtonContent, for: .normal)
+        tintColor = .WhiteButtonContent
     }
     
     // MARK: Primary Danger
@@ -23,7 +23,7 @@ extension HalanButton {
     }
     
     func updatePrimaryDangerContentColor() {
-        setTitleColor(.DangerButtonContent, for: .normal)
+        tintColor = .DangerButtonContent
     }
     
     // MARK: - Secondary Blue
@@ -37,7 +37,7 @@ extension HalanButton {
     
     // MARK: - Secondary Danger
     func updateSecondaryDangerContentColor() {
-        setTitleColor(.DangerButtonContent, for: .normal)
+        tintColor = .DangerButtonContent
     }
     
     // MARK: - Tertiary Blue
@@ -45,15 +45,16 @@ extension HalanButton {
         layer.borderWidth = 1
         backgroundColor = .NegativeBackground
         layer.borderColor = UIColor.BlueBorder.cgColor
-        setTitleColor(.BlueButtonContent, for: .normal)
+        tintColor = .BlueButtonContent
+        layoutSubviews()
     }
     
     // MARK: - Tertiary Danger
-    func updateTertiaryDangerTextColor() {
+    func updateTertiaryDangerContentColor() {
         layer.borderWidth = 1
         backgroundColor = .NegativeBackground
         layer.borderColor = UIColor.DangerBorder.cgColor
-        setTitleColor(.DangerButtonContent, for: .normal)
+        tintColor = .DangerButtonContent
     }
 }
 

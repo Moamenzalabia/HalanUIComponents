@@ -15,15 +15,21 @@ public class HalanButton: UIButton {
         commonInit()
     }
     
-    @objc public required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         commonInit()
     }
     
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+    }
+    
     func commonInit() {
-        layer.cornerRadius = 6
+        layer.cornerRadius = 8
         layer.borderColor = UIColor.clear.cgColor
         layer.borderWidth = 0
+        contentEdgeInsets = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
+        titleEdgeInsets = UIEdgeInsets(top: 0, left: 12, bottom: 0, right: 0)
     }
     
     // MARK: - local properties
@@ -56,7 +62,7 @@ public class HalanButton: UIButton {
     
     // MARK: - inspectable(s)
     /// Halan Button Corner Radius
-    @IBInspectable public var cornerRadius: CGFloat = 6 {
+    @IBInspectable public var cornerRadius: CGFloat = 8 {
         didSet{
             layer.cornerRadius = cornerRadius
         }
@@ -114,13 +120,13 @@ public class HalanButton: UIButton {
     private func editButtonSize() {
         switch size {
             case .large:
-                frame.size = CGSize(width: self.frame.width, height: 50)
+                heightAnchor.constraint(equalToConstant: 50).isActive = true
                 titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .bold)
             case .medium:
-                frame.size = CGSize(width: self.frame.width, height: 40)
+                heightAnchor.constraint(equalToConstant: 40).isActive = true
                 titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .medium)
             case .small:
-                frame.size = CGSize(width: self.frame.width, height: 30)
+                heightAnchor.constraint(equalToConstant: 30).isActive = true
                 titleLabel?.font = UIFont.systemFont(ofSize: 20, weight: .regular)
         }
     }
@@ -156,7 +162,7 @@ public class HalanButton: UIButton {
                 updateSecondaryWhiteBackgroundColor()
                 updateSecondaryDangerContentColor()
             case .tertiary:
-                updateTertiaryDangerTextColor()
+                updateTertiaryDangerContentColor()
         }
     }
 }

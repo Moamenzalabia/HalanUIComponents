@@ -26,6 +26,8 @@ extension HalanButton {
         size = buttonSize
         theme = buttonTheme
         background = buttonBackground
+        self.cornerRadius = cornerRadius
+        self.imageName = imageName
     }
     
     /**

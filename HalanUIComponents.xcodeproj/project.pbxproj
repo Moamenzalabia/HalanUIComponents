@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0167559E27A07548007257FE /* HalanUIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0167559527A07548007257FE /* HalanUIComponents.framework */; };
-		016755A327A07548007257FE /* HalanUIComponentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755A227A07548007257FE /* HalanUIComponentsTests.swift */; };
-		016755A427A07548007257FE /* HalanUIComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 0167559827A07548007257FE /* HalanUIComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		016755A327A07548007257FE /* HalanButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755A227A07548007257FE /* HalanButtonTests.swift */; };
 		016755B327A078A4007257FE /* UIColor+Backgrounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B227A078A4007257FE /* UIColor+Backgrounds.swift */; };
 		016755B527A078EF007257FE /* UIColor+Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B427A078EF007257FE /* UIColor+Borders.swift */; };
 		016755B727A07911007257FE /* UIColor+Contents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016755B627A07911007257FE /* UIColor+Contents.swift */; };
@@ -36,9 +35,8 @@
 
 /* Begin PBXFileReference section */
 		0167559527A07548007257FE /* HalanUIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HalanUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0167559827A07548007257FE /* HalanUIComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HalanUIComponents.h; sourceTree = "<group>"; };
 		0167559D27A07548007257FE /* HalanUIComponentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HalanUIComponentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		016755A227A07548007257FE /* HalanUIComponentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalanUIComponentsTests.swift; sourceTree = "<group>"; };
+		016755A227A07548007257FE /* HalanButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HalanButtonTests.swift; sourceTree = "<group>"; };
 		016755B227A078A4007257FE /* UIColor+Backgrounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Backgrounds.swift"; sourceTree = "<group>"; };
 		016755B427A078EF007257FE /* UIColor+Borders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Borders.swift"; sourceTree = "<group>"; };
 		016755B627A07911007257FE /* UIColor+Contents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Contents.swift"; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 			children = (
 				016755AE27A07834007257FE /* Classes */,
 				016755AD27A0781F007257FE /* Resources */,
-				0167559827A07548007257FE /* HalanUIComponents.h */,
 			);
 			path = HalanUIComponents;
 			sourceTree = "<group>";
@@ -103,7 +100,7 @@
 		016755A127A07548007257FE /* HalanUIComponentsTests */ = {
 			isa = PBXGroup;
 			children = (
-				016755A227A07548007257FE /* HalanUIComponentsTests.swift */,
+				016755A227A07548007257FE /* HalanButtonTests.swift */,
 			);
 			path = HalanUIComponentsTests;
 			sourceTree = "<group>";
@@ -165,7 +162,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016755A427A07548007257FE /* HalanUIComponents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016755A327A07548007257FE /* HalanUIComponentsTests.swift in Sources */,
+				016755A327A07548007257FE /* HalanButtonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
