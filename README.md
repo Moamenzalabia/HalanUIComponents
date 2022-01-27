@@ -31,7 +31,7 @@ myButton.hideLoader()
 - Xcode 12+
 
 ## Setup
-To get started, you need to have the HalanUIComponent pod installed in your workspace. Add the following line to your Podfile and run the pod install command.
+To get started, you need to have the HalanUIComponents pod installed in your workspace. Add the following line to your Podfile and run the pod install command.
 
 ```
 pod ‘HalanUIComponents’, :git => "https://github.com/Moamenzalabia/HalanUIComponents.git"
