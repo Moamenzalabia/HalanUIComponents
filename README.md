@@ -34,5 +34,5 @@ myButton.hideLoader()
 To get started, you need to have the HalanUIComponent pod installed in your workspace. Add the following line to your Podfile and run the pod install command.
 
 ```
-pod ‘HalanUIComponent’, :git => "https://github.com/Moamenzalabia/HalanUIComponent.git"
+pod ‘HalanUIComponents’, :git => "https://github.com/Moamenzalabia/HalanUIComponents.git"
 ```
